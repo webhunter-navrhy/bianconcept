@@ -1,0 +1,89 @@
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/instrument-italic-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/instrument-italic-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/instrument-normal-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/instrument-normal-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(../fonts/jost-normal-300-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:300;font-display:swap;src:url(../fonts/jost-normal-300-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/jost-normal-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/jost-normal-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/jost-normal-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Jost';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/jost-normal-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+:root{--tus:#2b2a26;--oliva:#5f634a;--taupe:#c5b4a0;--mlha:#dbdbd3;--papir:#f4f2ee;--serif:'Instrument Serif',Georgia,serif;--sans:'Jost',system-ui,sans-serif;--okraj:clamp(1.25rem,5vw,4rem)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:5.5rem}
+body{margin:0;background:var(--papir);color:var(--tus);font:300 1.0625rem/1.7 var(--sans);-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
+.skip{position:absolute;left:-999px}.skip:focus{left:1rem;top:1rem;background:#fff;padding:.5rem;z-index:99}
+.wrap{max-width:78rem;margin:0 auto;padding:0 var(--okraj)}
+.hlavicka{position:sticky;top:0;z-index:20;background:rgba(244,242,238,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(43,42,38,.08)}
+.hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;height:4.5rem}
+.logo img{height:3.4rem;width:auto}
+.hlavicka nav{display:flex;gap:clamp(1rem,3vw,2.5rem)}
+.hlavicka nav a{text-decoration:none;font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;font-weight:400;padding:.4rem 0;border-bottom:1px solid transparent}
+.hlavicka nav a:hover{border-color:var(--oliva)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.05;margin:0}
+.stitek{font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--oliva);margin:0 0 1.5rem;font-weight:400}
+.uvod{padding:clamp(2.5rem,7vw,6rem) 0 clamp(3rem,8vw,7rem)}
+.uvod-mrizka{display:grid;gap:2.5rem;grid-template-columns:1fr}
+.uvod h1{font-size:clamp(3.4rem,10vw,7.5rem);letter-spacing:-.015em}
+.perex{max-width:30rem;font-size:1.15rem;margin:1.75rem 0 2rem}
+.odkaz{display:inline-block;padding:.7rem 0 .3rem;text-decoration:none;font-size:.82rem;letter-spacing:.18em;text-transform:uppercase;border-bottom:1px solid currentColor;font-weight:400}
+.odkaz:hover{color:var(--oliva)}
+.uvod-foto{position:relative}.uvod-foto img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.uvod-foto::before{content:"";position:absolute;inset:auto auto -1rem -1rem;width:55%;height:55%;background:var(--taupe);z-index:-1}
+@media(min-width:60rem){.uvod-mrizka{grid-template-columns:1.1fr .9fr;align-items:end;gap:5rem}.uvod-foto{margin-bottom:1rem}}
+.realizace{background:var(--mlha);padding:clamp(3rem,8vw,7rem) 0}
+.rejstrik{display:grid;gap:3rem}
+.rejstrik-seznam h2{font-size:clamp(2.2rem,5vw,3.4rem);margin-bottom:1.75rem}
+.rejstrik-seznam ol,.dalsi{list-style:none;margin:0;padding:0}
+.rejstrik-seznam ol a{display:grid;grid-template-columns:2.2rem 1fr auto;gap:.5rem;padding:.9rem 0;border-top:1px solid rgba(43,42,38,.25);text-decoration:none;font-family:var(--serif);font-size:1.35rem;line-height:1.25;color:rgba(43,42,38,.55);transition:color .3s}
+.rejstrik-seznam ol li:last-child a{border-bottom:1px solid rgba(43,42,38,.25)}
+.rejstrik-seznam ol a.aktivni,.rejstrik-seznam ol a:hover{color:var(--tus)}
+.rejstrik-seznam ol a.aktivni .c{color:var(--oliva)}
+.c,.r{font-family:var(--sans);font-size:.78rem;letter-spacing:.14em;color:var(--oliva);padding-top:.35rem}
+.dalsi-nadpis{margin:2.5rem 0 .5rem;font-size:.78rem;letter-spacing:.24em;text-transform:uppercase;color:var(--oliva)}
+.dalsi li{display:flex;justify-content:space-between;padding:.4rem 0;font-size:.98rem;border-bottom:1px dotted rgba(43,42,38,.3)}
+.dalsi+.odkaz{margin-top:1.5rem}
+.projekt{margin-bottom:clamp(3rem,7vw,5.5rem)}
+.projekt:last-child{margin-bottom:0}
+.projekt-fota{display:grid;gap:.75rem}
+.projekt-fota img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--taupe)}
+.projekt-fota.dve{grid-template-columns:1fr 1fr}
+.projekt h3{font-size:clamp(1.7rem,3.4vw,2.3rem);margin:1.25rem 0 .4rem}
+.projekt h3 .c,.projekt h3 .r{font-size:.8rem;vertical-align:middle;margin-right:.5rem;padding:0}
+.projekt p{margin:0;max-width:34rem}
+@media(min-width:60rem){.rejstrik{grid-template-columns:22rem 1fr;gap:5rem}.rejstrik-seznam{position:sticky;top:6.5rem;align-self:start}}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .9s ease,transform .9s ease}.reveal.vidim{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+.omne{padding:clamp(4rem,9vw,8rem) 0}
+.omne-mrizka{display:grid;gap:2rem}
+.omne h2{font-size:clamp(2.2rem,5vw,3.4rem)}
+.velke{font-family:var(--serif);font-size:clamp(1.6rem,3.2vw,2.3rem);line-height:1.25;margin:0 0 1.5rem}
+.omne p{max-width:38rem}
+@media(min-width:60rem){.omne-mrizka{grid-template-columns:22rem 1fr;gap:5rem}}
+.kontakt{background:var(--oliva);color:var(--papir);padding:clamp(3.5rem,8vw,7rem) 0}
+.kontakt-mrizka{display:grid;gap:3rem}
+.kontakt h2{font-size:clamp(2.4rem,6vw,4rem);margin-bottom:1rem}
+.spoje{font-family:var(--serif);font-size:1.5rem;line-height:1.6}.spoje a{text-decoration:none;border-bottom:1px solid rgba(244,242,238,.4)}
+.formular{display:grid;gap:1.1rem}
+.formular label{display:grid;gap:.35rem;font-size:.78rem;letter-spacing:.16em;text-transform:uppercase}
+.formular input,.formular textarea{font:300 1rem var(--sans);color:var(--papir);background:transparent;border:0;border-bottom:1px solid rgba(244,242,238,.5);padding:.55rem 0;border-radius:0;letter-spacing:0;text-transform:none}
+.formular input:focus,.formular textarea:focus{outline:0;border-color:#fff}
+.formular .past{position:absolute;left:-9999px}
+.formular button{justify-self:start;margin-top:.5rem;background:var(--papir);color:var(--tus);border:0;padding:.95rem 2.2rem;font:400 .82rem var(--sans);letter-spacing:.2em;text-transform:uppercase;cursor:pointer}
+.formular button:hover{background:var(--taupe)}
+.formular-stav{min-height:1.4em;margin:0;font-size:.9rem}
+@media(min-width:60rem){.kontakt-mrizka{grid-template-columns:1fr 1.1fr;gap:6rem}}
+.paticka{background:var(--tus);color:rgba(244,242,238,.75);font-size:.88rem;padding:2rem 0}
+.paticka .wrap{display:flex;flex-wrap:wrap;gap:.4rem 2rem}.paticka p{margin:0}
+:focus-visible{outline:2px solid var(--oliva);outline-offset:3px}
+.kontakt :focus-visible{outline-color:var(--papir)}
+@media(max-width:34rem){.hlavicka nav{gap:.9rem}.hlavicka nav a{font-size:.7rem;letter-spacing:.1em}.logo img{height:2.8rem}}
+
+.hlavicka nav a{padding:.75rem 0}
+@media(max-width:59.99rem){.uvod-foto{justify-self:start}}
+
+.uvod-foto figcaption{font-size:.78rem;letter-spacing:.18em;text-transform:uppercase;color:var(--oliva);margin-top:.9rem}.uvod-foto{margin:0}
+.dalsi-pozn{margin:2rem 0 .5rem;font-size:.98rem}.paticka a{display:inline-block;padding:.5rem 0}
+.rejstrik-seznam ol a{grid-template-columns:1fr auto}
+
+.odkaz,.skip{padding-block:.85rem}.dalsi li{border:0}
