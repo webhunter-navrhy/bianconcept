@@ -1,0 +1,29 @@
+{
+  "slug": "bianconcept",
+  "nazev": "Bian Concept – Ing. Blanka Šnáblová",
+  "url": "https://webhunter-navrhy.github.io/bianconcept/",
+  "base": "/bianconcept/",
+  "lang": "cs",
+  "popis": "Bian Concept – návrhy a realizace interiérů. Vybrané projekty interiérové designérky Blanky Šnáblové: rodinné domy, klinika, studentské pokoje.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "konetopy-obyvak.jpg",
+  "logo": "logo.svg",
+  "theme_color": "#f4f2ee",
+  "typ": "LocalBusiness",
+  "ico": "02857391",
+  "kontakt": {
+    "email": "blanka.snablova@bianconcept.cz",
+    "telefon": "+420 724 319 211",
+    "adresa": {"ulice": "", "psc": "", "mesto": "Brandýs nad Labem", "zeme": "CZ"}
+  },
+  "oteviraci_doba": [],
+  "sameas": ["https://www.instagram.com/bian_concept.cz/"],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Poptávka z webu Bian Concept"},
+  "nav": [
+    {"text": "Realizace", "href": "#realizace"},
+    {"text": "O mně", "href": "#o-mne"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}

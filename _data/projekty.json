@@ -1,0 +1,44 @@
+[
+ {
+  "nazev": "Klinika estetické medicíny, Praha Vysočany",
+  "rok": "2024",
+  "popis": "Recepce a chodba kliniky: světlý dub, štuková stěna a zeleň, která uklidňuje.",
+  "foto": [
+   "recepce.jpg",
+   "chodba.jpg"
+  ],
+  "alt": [
+   "Recepce kliniky s dubovým pultem a štukovou stěnou",
+   "Chodba kliniky s policí a křesly"
+  ],
+  "cislo": "1"
+ },
+ {
+  "nazev": "Rodinný dům Koňětopy",
+  "rok": "2026",
+  "popis": "Vizualizace obývacího prostoru: světlé dřevo, jemná stěrka a měkké osvětlení ve stropě.",
+  "foto": [
+   "konetopy-obyvak.jpg",
+   "konetopy-stena.jpg"
+  ],
+  "alt": [
+   "Vizualizace obývacího prostoru s jídelním stolem a krbem",
+   "Vizualizace stěny s dřevěnou nikou a malbou"
+  ],
+  "cislo": "2"
+ },
+ {
+  "nazev": "Rodinný dům Velká Chuchle",
+  "rok": "2025",
+  "popis": "Kuchyně v tlumené zeleni, světlá stěrka a dřevěná podlaha v rybí kosti.",
+  "foto": [
+   "chuchle-kuchyn1.jpg",
+   "chuchle-kuchyn2.jpg"
+  ],
+  "alt": [
+   "Vizualizace kuchyně v olivově zelené s vestavěnými spotřebiči",
+   "Vizualizace kuchyňské linky ve tvaru L s oknem"
+  ],
+  "cislo": "3"
+ }
+]

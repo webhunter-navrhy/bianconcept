@@ -1,0 +1,62 @@
+{% extends "_base.html" %}
+{% set titulek = 'Bian Concept – interiéry s duší | Blanka Šnáblová' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="uvod">
+  <div class="wrap uvod-mrizka">
+    <div class="uvod-text">
+      <p class="stitek">Návrhy a realizace interiérů</p>
+      <h1>Interiéry s duší</h1>
+      <p class="perex">Blanka Šnáblová, interiérová designérka. Prostory, ve kterých se dobře žije i pracuje: klidné materiály, světlo a detail, který zůstane.</p>
+      <a class="odkaz" href="#realizace">Vybrané realizace</a>
+    </div>
+    <figure class="uvod-foto">{{ img('pokoj.jpg', 'Studentský pokoj s lamelovým obkladem a vestavěnou postelí', sizes='(min-width: 60rem) 40rem, 100vw') }}<figcaption>Studentský pokoj</figcaption></figure>
+  </div>
+</section>
+
+<section class="realizace" id="realizace">
+  <div class="wrap rejstrik">
+    <aside class="rejstrik-seznam" aria-label="Rejstřík realizací">
+      <h2>Vybrané realizace</h2>
+      <ol>
+        {% for p in data.projekty %}<li><a href="#p{{ p.cislo }}" data-cil="p{{ p.cislo }}"><span class="n">{{ p.nazev }}</span><span class="r">{{ p.rok }}</span></a></li>{% endfor %}
+      </ol>
+      <p class="dalsi-nadpis">Další projekty</p>
+      <p class="dalsi-pozn">Další realizace (studentské pokoje, byty, koupelny) najdete na Instagramu.</p>
+      <a class="odkaz" href="https://www.instagram.com/bian_concept.cz/" rel="noopener">Další na Instagramu</a>
+    </aside>
+    <div class="rejstrik-foto">
+      {% for p in data.projekty %}
+      <article class="projekt" id="p{{ p.cislo }}">
+        <div class="projekt-fota{{ ' dve' if p.foto|length > 1 else '' }}">
+          {% for f in p.foto %}{{ img(f, p.alt[loop.index0], sizes='(min-width: 60rem) 36rem, 100vw') }}{% endfor %}
+        </div>
+        <h3>{{ p.nazev }}{% if p.rok %} <span class="r">{{ p.rok }}</span>{% endif %}</h3>
+        <p>{{ p.popis }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="omne" id="o-mne">
+  <div class="wrap omne-mrizka">
+    <h2>O mně</h2>
+    <div>
+      <p class="velke">Navrhuji a realizuji interiéry od koupelen a studentských pokojů po rodinné domy a prostory kliniky.</p>
+      <p>Každý projekt začíná tím, jak v prostoru chcete žít. Materiály volím tak, aby spolu držely: dřevo, štuk a zeleň. Pokud chcete vidět víc, dívejte se na Instagram, kde průběžně přibývají nové realizace.</p>
+    </div>
+  </div>
+</section>
+
+<section class="kontakt" id="kontakt">
+  <div class="wrap kontakt-mrizka">
+    <div>
+      <h2>Napište mi</h2>
+      <p>Popište stručně, co plánujete. Ozvu se vám.</p>
+      <p class="spoje"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

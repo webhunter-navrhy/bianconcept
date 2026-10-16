@@ -1,0 +1,65 @@
+{
+ "slug": "bianconcept",
+ "zdroj_url": "https://www.bianconcept.cz",
+ "firma": "Ing. Blanka Šnáblová",
+ "obor": [],
+ "ico": "02857391",
+ "ares": {
+  "ico": "02857391",
+  "obchodni_jmeno": "Ing. Blanka Šnáblová",
+  "pravni_forma": "101",
+  "adresa": "Labská 2484, Brandýs nad Labem, 25001 Brandýs nad Labem-Stará Boleslav",
+  "obec": "Brandýs nad Labem-Stará Boleslav",
+  "dic": null,
+  "datum_vzniku": "2014-04-02",
+  "nace": [
+   "00",
+   "74"
+  ]
+ },
+ "kontakty": {
+  "emaily": [
+   "blanka.snablova@bianconcept.cz"
+  ],
+  "telefony": [
+   "+420 724 319 211"
+  ],
+  "adresa": "",
+  "socialni_site": [
+   "https://www.facebook.com/blanka.snablova"
+  ],
+  "zdroj": "formulář studentskeweby.cz 16. 10. 2026 (klientka sama)"
+ },
+ "logo": "trasováno z IG karty (static/logo.svg)",
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#003388",
+   "#eb8a7c"
+  ],
+  "z_loga": [],
+  "theme_color": null,
+  "doporucene": [
+   "#003388",
+   "#eb8a7c"
+  ]
+ },
+ "fotky": [
+  "IG @bian_concept.cz, 1080×1350, 7 fotek/vizualizací"
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "BianConcept",
+   "zdroj": "https://www.bianconcept.cz/"
+  }
+ ],
+ "chybi": [
+  "telefon (do webu, ne do mailů)",
+  "logo (v dobrém rozlišení, ideálně vektor)",
+  "fotky firmy/provozu/produktů (nalezeno 0, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": " | "
+}

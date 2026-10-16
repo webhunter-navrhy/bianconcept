@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Rejstřík Realizace, seznam Další projekty (PC buňky 2–4, mobil 2): Studentské pokoje, 3kk Žižkov, Koupelny a Dekorace jsou pořád jen řádky textu bez fotky a bez odkazu. Na čtenáře působí jako nedodělané menu, které nikam nevede. Sloučit je do jednoho řádku „Další realizace na Instagramu“ s odkazem na @bian_concept.cz. Druhá možnost je dát ke každé položce náhled z IG, který vede na konkrétní příspěvek.",
+    "Mobil, odkazy „Vybrané realizace“ (hero), „Další na Instagramu“ (Realizace) a skip-link: QA pořád hlásí výšku 39 px a 29 px, takže loňská výtka zůstala neopravená. Přidat padding-block, aby měly aspoň 44 px. Skip-link schovat mimo viewport a zvětšit ho až při :focus.",
+    "Fotka kuchyně u Rodinný dům Velká Chuchle, pravá (PC buňka 3, mobil 4): v rohu je velký černý čtverec s bílým logem z IG karty. Na fotce rozbíjí jednotnou gradaci a vypadá jako vložený screenshot. Fotku oříznout bez čtverce nebo vzít jinou z IG. Malé vodoznaky v rozích ostatních fotek nevadí."
+  ],
+  "silne": [
+    "Diakritika je vyřešená: nadpisy jsou v Instrument Serif 400 s vlastními háčky a hero „Interiéry s duší“ je celé jedním řezem bez kurzívy.",
+    "Čísla 01/02/03 zmizela a v rejstříku zůstaly jen roky. Rejstřík vlevo s fotkami vpravo dobře sedí na portfolio designérky a obsah je světlý a editoriální.",
+    "V hero je teď studentský pokoj a obývák zůstal jen v projektu Kořetopy. Fotky se načítají v 1080 px a QA nehlásí zvětšení ani přetečení na žádné ze 6 šířek.",
+    "Kontakty mají doložený zdroj, protože je klientka sama vyplnila ve formuláři studentskeweby.cz. Logo je vlevo v hlavičce, paleta je teplá béžová a olivová, mezery jsou velkorysé."
+  ],
+  "verdikt": "Opravit: font, kurzíva, číslování i duplicita fotek jsou vyřešené. Zbývá dodělat holý seznam Další projekty, dotykové cíle pod 40 px a fotku s černým IG čtvercem. Pak je to na 8.",
+  "_hash": "e725c7941b339a2a5edeb4c0367131e864e8b7b3"
+}
